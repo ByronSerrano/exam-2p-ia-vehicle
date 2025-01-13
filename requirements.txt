@@ -1,0 +1,9 @@
+numpy==1.23.5
+pandas==1.5.3
+opencv-python==4.7.0.72
+tensorflow==2.10.1  # O PyTorch si prefieres, pero no ambos
+scikit-learn==1.2.0
+matplotlib==3.6.2
+seaborn==0.12.1
+jupyter==1.0.0
+fpdf==1.7.2  # Para la generación del PDF
