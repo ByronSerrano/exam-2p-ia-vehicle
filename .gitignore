@@ -1,2 +1,55 @@
-data/*
+# Rutas comunes
+.env
+*.log
+*.pid
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Dataset
 data
+
+# Entorno virtual
+env/
+venv/
+.venv/
+
+# Archivos relacionados con Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pkl
+*.h5
+*.keras
+
+# Archivos de salida
+results/output/*
+results/input/video_input.mp4
+results/input/*
+.mp4
+
+# Modelos
+model/*.pt
+model/*.h5
+model/*.keras
+model/*.ckpt
+
+# Archivos relacionados con Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos relacionados con IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos relacionados con ultralytics
+runs/
+yolov5/runs/
+
+# Bases de datos y datasets locales
+data/cars_dataset/
