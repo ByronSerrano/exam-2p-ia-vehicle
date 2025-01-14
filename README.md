@@ -47,3 +47,18 @@ git pull origin dev
   ```bash
    cars_dataset
    ```
+
+3. Descarga un video que se muestren carros de frente, puedes usar este video:
+[video_para_pruebas](https://pixabay.com/es/videos/carros-autopista-velocidad-1900/)
+
+
+4. Ingresa el video en esta ruta: 
+```bash
+   src/results/input
+   ```
+
+### Levanta la Aplicación
+Ejecuta este comando en la raiz del proyecto:
+```bash
+   python src/main.py
+   ```
