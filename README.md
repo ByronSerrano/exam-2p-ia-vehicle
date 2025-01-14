@@ -11,30 +11,29 @@ Hecho por: Byron Serrano
 
 ###  Instalación
 1. Clona el repositorio en tu máquina:
-   ```bash
-   git clone https://github.com/ByronSerrano/exam-2p-ia-vehicle.git
-   ```
+```bash
+git clone https://github.com/ByronSerrano/exam-2p-ia-vehicle.git
+```
 
 2. Crea y dirigite a la rama "dev" y trae los cambios de la rama "dev"::
-  ```bash
-   git checkout -b dev
-   ```
+```bash
+git checkout -b dev
+```
 
-   ```bash
-   git pull origin dev
-   ```
+```bash
+git pull origin dev
+```
 
 3. Crea un enviroment y activalo:
-  ```bash
-   python -m venv env
-   ```
+```bash
+  python -m venv env
+  ```
 
-  Windows:
+  - Windows:
    ```bash
    env\Scripts\activate
    ```
-
-   Linux:
+   - Linux:
    ```bash
    source env/bin/activate
    ```
